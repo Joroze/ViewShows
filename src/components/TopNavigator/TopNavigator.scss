@@ -1,0 +1,23 @@
+.component-top-navigator {
+    align-items: center;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+
+    a {
+        text-decoration: none;
+        font-weight: 600;
+        
+        &:visited {
+            color: inherit;
+        }
+
+        &:hover {
+            color: #ffffffd9;
+        }
+    }
+}
