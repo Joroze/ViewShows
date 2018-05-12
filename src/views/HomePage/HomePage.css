@@ -1,4 +1,0 @@
-.component-home-page {
-  display: grid;
-  grid-auto-rows: minmax(100px, auto);
-  grid-gap: 100px; }

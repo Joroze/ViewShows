@@ -1,9 +1,0 @@
-.component-film-item {
-  width: 179px;
-  padding: 5px; }
-  .component-film-item .image-and-details {
-    width: 100%; }
-    .component-film-item .image-and-details img {
-      width: inherit; }
-  .component-film-item:hover {
-    background: #00000024; }
