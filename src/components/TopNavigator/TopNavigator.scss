@@ -1,12 +1,17 @@
+$topNavigatorPadding: 10px;
+$topNavigatorHeight: 20px;
+
 .component-top-navigator {
     align-items: center;
     background: black;
     color: white;
     display: flex;
     justify-content: space-evenly;
-    padding: 10px;
+    padding: $topNavigatorPadding;
     position: fixed;
+    height: $topNavigatorHeight;
     width: 100%;
+    z-index: 1000;
 
     a {
         text-decoration: none;

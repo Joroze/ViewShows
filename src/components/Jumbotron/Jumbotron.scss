@@ -1,0 +1,15 @@
+$jumbotronBackgroundGradient: linear-gradient(to left, #322d83, #000000);
+$jumbotronPadding: 75px;
+
+.component-jumbotron {
+    display: flex;
+    justify-content: center;
+    background: $jumbotronBackgroundGradient;
+    padding-top: $jumbotronPadding;
+    padding-bottom: $jumbotronPadding;
+    color: white;
+    width: 100%;
+    font-weight: 600;
+    font-size: 30px;
+    text-shadow: 1px 1px rgba(0,0,0,.25);
+}

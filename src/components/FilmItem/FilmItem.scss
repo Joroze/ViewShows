@@ -1,16 +1,25 @@
 .component-film-item {
-    width: 179px;
-    padding: 5px;
+    .item-content {
+        animation: slide-up 0.4s ease;
+        margin: 5px;
 
-    .image-and-details {
-        width: 100%;
+        .image-and-details {
+            img {
+                width: 100%;
+            }
+        }
 
-        img {
-            width: inherit;
+        &:hover {
+            background: #00000024;
         }
     }
 
-    &:hover {
-        background: #00000024;
+    @keyframes slide-up {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
     }
 }
