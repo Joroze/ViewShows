@@ -1,6 +1,8 @@
 import "./FilmItem.css";
 import React from "react";
 
+import { convertToHttps } from "utilities";
+
 function FilmItem(props) {
   const { imageSrc, title, permaLink } = props;
 
@@ -9,7 +11,7 @@ function FilmItem(props) {
       <div className="item-content">
         <div className="image-and-details">
           <div className="image">
-            <img src={imageSrc} alt={title} />
+            <img src={convertToHttps(imageSrc)} alt={title} />
           </div>
         </div>
         <div className="title-container">

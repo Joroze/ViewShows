@@ -1,5 +1,5 @@
-# joroze.github.io/ViewShows
+# viewshows.joroze.com
 
 ### Jordan's experimental "Netflix" web app built using React, Redux, and RxJS.
 
-You can demo the web app [here](http://www.joroze.com/ViewShows).
+You can demo the web app [here](http://viewshows.joroze.com).

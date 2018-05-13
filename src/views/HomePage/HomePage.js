@@ -23,7 +23,7 @@ function HomePage(props) {
       </Jumbotron>
 
       <Container>
-        {!isLoading ? (
+        {filmList.length && !isLoading ? (
           <React.Fragment>
             <FilmSlider title={"Some Category"} items={filmList} />
             <FilmSlider title={"Another Category"} items={filmList} />
