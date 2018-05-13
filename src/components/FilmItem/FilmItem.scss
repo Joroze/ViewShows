@@ -1,11 +1,27 @@
 .component-film-item {
     .item-content {
         animation: slide-up 0.4s ease;
-        margin: 5px;
+        padding: 5px;
 
         .image-and-details {
-            img {
+            position: relative;
+            padding-top: 140%;
+            width: 100%;
+
+            .image {
+                position: absolute;
+                top: 0;
+                left: 0;
                 width: 100%;
+                height: 100%;
+                z-index: 2;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
             }
         }
 

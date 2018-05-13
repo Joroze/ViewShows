@@ -8,7 +8,9 @@ function FilmItem(props) {
     <a href={permaLink} className="component-film-item">
       <div className="item-content">
         <div className="image-and-details">
-          <img src={imageSrc} alt={title} />
+          <div className="image">
+            <img src={imageSrc} alt={title} />
+          </div>
         </div>
         <div className="title-container">
           <span className="title">{title}</span>
